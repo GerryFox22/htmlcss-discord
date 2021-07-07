@@ -15,6 +15,11 @@ header{
     background-size: cover;
 }
 
+footer{
+    background-color: #23272a;
+    background-size: cover;
+}
+
 p {
     line-height: 25px;
 }
@@ -24,11 +29,11 @@ ul> li {
     display: inline-block;
 }
 
-/* .clearfix:after {
+.clearfix:after {
     content: "";
     display: table;
     clear: both;
-} */
+} 
 
 section.header-container {
     max-width: 70%;
@@ -144,6 +149,63 @@ h2#star-bg {
     padding-bottom: 25px;
 }
 
+.footer-container {
+    max-width: 70%;
+    margin: auto;
+}
+
+.main-footer {
+    border-bottom: 1px solid #a3a8ff;
+    padding-top: 90px;
+    padding-bottom: 25px;
+}
+
+.space-line{
+    padding-bottom: 20px;
+}
+
+.footer-column {
+    float: left;
+    padding-right: 90px;
+}
+}
+
+.line-h {
+    line-height: 20px;
+}
+
+p.footer-column-row.white-word  {
+    line-height: 30px;
+}
+
+h4.purple-word {
+    line-height: 30px;
+}
+
+.endpage-toolbar {
+    position: relative;
+    padding: 30px 0;
+}
+
+.end-logo {
+    float: left;
+}
+
+.end-register {
+    position: absolute;
+    right: 0;
+}
+
+button.button {
+    border: none;
+    border-radius: 20px;
+    padding: 8px 12px;
+}
+
+p.footer-column-row.white-word a {
+    font-size: 1em;
+}
+
 
 
 
@@ -175,12 +237,21 @@ h2#star-bg {
     color: white;
 }
 
+.purple-word{
+    color: #a3a8ff;;
+}
+
 /* #star-bg {
     background-position: top;
     background-image: url(../img/stars.svg);
     background-repeat: round;
 
 } */
+
+.icon img {
+    width: 20px;
+    margin-right: 5px;
+}
 
 #logo,
 #tool-bar,
