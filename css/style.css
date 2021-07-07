@@ -135,8 +135,14 @@ button.download-button {
 }
 
 
+h1.final-title {
+    padding-bottom: 30px;
+    font-size: 2.5em;
+}
 
-
+h2#star-bg {
+    padding-bottom: 25px;
+}
 
 
 
@@ -161,9 +167,20 @@ button.download-button {
     background-color: black;
 }
 
+.purple-button{
+    background-color: #a3a8ff;
+}
+
 .white-word{
     color: white;
 }
+
+/* #star-bg {
+    background-position: top;
+    background-image: url(../img/stars.svg);
+    background-repeat: round;
+
+} */
 
 #logo,
 #tool-bar,
