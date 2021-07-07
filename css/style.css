@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+header{
+    background-image: url(../img/jumbo.png);
+    height: 500px;
+    background-size: cover;
+}
+
+ul> li {
+    padding: 0 20px;
+    display: inline-block;
+}
+
+/* .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+section.header-container {
+    max-width: 70%;
+    margin: auto;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#login li button {
+    border-radius: 20px;
+    padding: 8px 13px;
+}
+
+.header-bar {
+    padding-top: 20px;
+    position: relative;
+}
+
+#login {
+    position: absolute;
+    right: 0;
+    padding-top: 8px;
+}
+
+#tool-bar {
+    padding-left: 100px;
+}
+
+
+
+#logo,
+#tool-bar,
+#login {
+    
+   display: inline-block;
+   vertical-align: middle;
+}
